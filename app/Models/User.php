@@ -51,7 +51,7 @@ class User extends Authenticatable
      */
     public function searchableAs(): string
     {
-        return 'user_index';
+        return 'users_index';
     }
 
     /**
